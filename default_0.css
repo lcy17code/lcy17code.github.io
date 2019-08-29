@@ -61,7 +61,7 @@
 	{
 		overflow: hidden;
 		margin: 0em auto;
-		width: 1000px;
+		width: 1200px;
 	}
 	
 /*********************************************************************************/
@@ -447,7 +447,7 @@
 	.membox
 	{
 		background: #ffffff;
-		width: 1000px;			
+		width: 1200px;			
 		height:180px;
 		margin-bottom: 2em;		
 	}
@@ -469,7 +469,7 @@
 	.pjbox
 	{
 		background: #ffffff;
-		width: 1000px;			
+		width: 1200px;			
 		height:250px;
 		margin-bottom: 2em;		
 	}
@@ -482,7 +482,7 @@
 	.pjbox .pjdetails
 	{
 		display: block;
-		width: 625px;
+		width: 825px;
 		float: right;
 		
 		padding: 1em 2em 1em 2em;
