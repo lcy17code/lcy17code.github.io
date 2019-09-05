@@ -126,8 +126,8 @@
 	.title h2
 	{
 		margin-bottom: 1em;
-		font-weight: 700;
-		font-size: 2em;
+		font-weight: 600;
+		font-size: 1.8em;
 		color: #383326;
 	}
 
@@ -142,7 +142,7 @@
 
 	.title hsectitle
 	{
-		margin-bottom: 1em;
+		margin-bottom: 2em;
 		font-weight: 600;
 		font-size: 1.7em;
 		color: #383326;
@@ -151,9 +151,9 @@
 	.title hauthor
 	{
 		margin-bottom: 1em;
-		font-weight: 400;
-		font-size: 1.3em;
-		line-height: 130%;
+		font-weight: 300;
+		font-size: 1.2em;
+		line-height: 140%;
 		color: #383326;
 	}
 
