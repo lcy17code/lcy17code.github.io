@@ -127,21 +127,28 @@
 	{
 		margin-bottom: 1em;
 		font-weight: 700;
-		line-height: 150%;
 		font-size: 2em;
 		color: #383326;
 	}
 
-	.title h3
+	.title hpapertitle
+	{
+		margin-bottom: 1em;
+		font-weight: 700;
+		line-height: 160%;
+		font-size: 2em;
+		color: #383326;
+	}
+
+	.title hsectitle
 	{
 		margin-bottom: 1em;
 		font-weight: 600;
-		line-height: 150%;
 		font-size: 1.7em;
 		color: #383326;
 	}
 
-	.title h4
+	.title hauthor
 	{
 		margin-bottom: 1em;
 		font-weight: 400;
