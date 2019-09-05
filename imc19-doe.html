@@ -32,7 +32,6 @@ div {
 <div id="page">
 	<div class="container">
 		<div class="title">
-			<br />
 			<hpapertitle>
 				An End-to-End, Large-Scale Measurement of </br> DNS-over-Encryption: How Far Have We Come?
 			</hpapertitle>
@@ -43,11 +42,14 @@ div {
 				Mingming Zhang, Chunying Leng, Ying Liu, <a href="https://blog.netlab.360.com/author/zhangzaifeng-2/">Zaifeng Zhang</a> and Jianping Wu
 				<br />
 				<br />
+				This paper is accepted by <a href="https://conferences.sigcomm.org/imc/2019/">IMC '19</a>. Download the <a href="paper-imc19.pdf">paper</a>.
+				<br />
+				<br />
 			</hauthor>
+			<hr>
 			<hsectitle>Overview</hsectitle>
 				<p>
 					Traditionally, DNS packets are transmitted in clear-text. However, adversaries are actively exploiting this design to compromise Internet users' security and privacy. To mitigate such threats, several protocols have been proposed to encrypt DNS queries between DNS clients and servers, which we jointly term as DNS-over-Encryption. </br>
-					We aim to understand the current status lf DNS-over-Encryption, by collecting data from Internet scanning, user-end measurement and passive monitoring logs. In general, the service quality of DNS-over-Encryption is satisfying, in terms of accessibility and latency. For DNS clients, DNS-over-Encryption queries are less likely to be disrupted by in-path interception compared to traditional DNS, and the extra overhead is tolerable. However, we also discover several issues regarding how the services are operated. As an example, we find 25% DNS-over-TLS service providers use invalid SSL certificates. Compared to traditional DNS, DNS-over-Encryption is used by far fewer users but we have witnessed a growing trend. As such, we believe the community should push broader adoption of DNS-over-Encryption and we also suggest the service providers carefully review their implementations.
 				</p>
 				<br />
 				<br />
