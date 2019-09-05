@@ -40,7 +40,7 @@
 	
 	p
 	{
-		line-height: 180%;
+		line-height: 160%;
 	}
 	
 	strong
@@ -126,7 +126,6 @@
 	.title h2
 	{
 		margin-bottom: 1em;
-		text-transform: uppercase;
 		font-weight: 700;
 		font-size: 2em;
 		color: #383326;
@@ -136,6 +135,7 @@
 	{
 		margin-bottom: 1em;
 		font-weight: 600;
+		line-height: 150%
 		font-size: 1.7em;
 		color: #383326;
 	}
@@ -143,9 +143,9 @@
 	.title h4
 	{
 		margin-bottom: 1em;
-		font-weight: 500;
+		font-weight: 400;
 		font-size: 1.3em;
-		line-height: 120%;
+		line-height: 130%;
 		color: #383326;
 	}
 
