@@ -125,7 +125,7 @@
 	
 	.title h2
 	{
-		margin-bottom: 1em;
+		margin-bottom: 0.5em;
 		font-weight: 600;
 		font-size: 1.8em;
 		color: #383326;
@@ -135,7 +135,7 @@
 	{
 		margin-bottom: 1em;
 		font-weight: 700;
-		line-height: 160%;
+		line-height: 140%;
 		font-size: 2em;
 		color: #383326;
 	}
@@ -144,7 +144,8 @@
 	{
 		margin-bottom: 2em;
 		font-weight: 600;
-		font-size: 1.7em;
+		font-size: 1.8em;
+		line-height: 140%;
 		color: #383326;
 	}
 
