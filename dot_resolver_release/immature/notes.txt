@@ -1,0 +1,27 @@
+manually changed the following items:
+1. add Google, CF and Quad9 into missing files.
+
+2. 0501: manually correct the CNs of cleanbrowsing.org error certs & Fortigate ok certs.
+
+3. remove ALL cleanbrowsing.org/CF/Google/Quad9/nextdns.io error certs & Fortigate ok certs via code (edit.py, part 1).
+
+4. manual correction of invalid certs: 
+0201
+192.241.146.173	US	CN=unbound	"self signed certificate"
+0421
+141.40.9.211	DE	CN=resolver2.lrz.de	"unable to verify the first certificate"
+24.134.118.1	DE	CN=FGT60E4Q16050406/emailAddress=support@fortinet.com	"self signed certificate in certificate chain"
+0601
+31.31.151.27	BE	CN=FG5H0E5818906781/emailAddress=support@fortinet.com	"self signed certificate in certificate chain"
+31.31.151.37	BE	CN=FG5H0E5818906781/emailAddress=support@fortinet.com	"self signed certificate in certificate chain"
+31.31.151.94	BE	CN=FG5H0E5818906781/emailAddress=support@fortinet.com	"self signed certificate in certificate chain"
+194.181.90.90	PL	CN=FG1HEFTK18000173/emailAddress=support@fortinet.com	"self signed certificate in certificate chain"
+0701
+181.174.109.10	GT	CN=FG140D3G13800039/emailAddress=support@fortinet.com	"self signed certificate in certificate chain"
+31.16.105.237	DE	CN=CN=FGT60E4Q16003758/emailAddress=support@fortinet.com	"self signed certificate"
+
+5. sort (edit.py, part 2)
+6. manually correct the "ok" neighbors (0301 - 0701).
+7. abandon 0601. too many duplicates.  -> folder "immature2"
+8. correct the CN by code. take the majority value of each CN. (immature2/edit.py)
+9. finalizing. a little neighbour adjustment.

@@ -42,7 +42,7 @@ div {
 				Mingming Zhang, Chunying Leng, Ying Liu, <a href="https://blog.netlab.360.com/author/zhangzaifeng-2/">Zaifeng Zhang</a> and Jianping Wu
 				<br />
 				<br />
-				This paper is accepted by <a href="https://conferences.sigcomm.org/imc/2019/">IMC '19</a>. Download the <a href="paper-imc19.pdf">paper</a>.
+				This paper is accepted by <a href="https://conferences.sigcomm.org/imc/2019/">IMC '19</a>. You may download the <a href="imc19-doe.pdf">paper</a>.
 				<br />
 				<br />
 			</hauthor>
@@ -59,41 +59,42 @@ div {
 					Compared to traditional DNS, DNS-over-Encryption is currently used by far fewer users but we have witnessed a growing trend. 
 					As such, we believe the community should push its broader adoption and we also suggest the service providers carefully review their implementations.
 				</p>
-				<br />
-				<br />
-		</div>
-		<!-- # the DNS-over-Encryption Project (IMC '19)-->
-		<div class="pjbox">
-			<div class="pjimg">
-				<img src="images/doe.png" width="350" height="250" alt="" />
-			</div>
-			<div class="pjdetails">
-				<h3><a href="imc19-doe.html">DNS-over-Encryption (IMC '19)</a></h3>
-				<br />
-				<p>Lately, protocols to encrypt plaintext DNS have been proposed to tackle with its privacy concerns. Based on large-scale data collection, we provide an early view on the current status of DNS-over-Encryption protocols. Specifically, we perform measurements on their deployment on open resolvers, their performance compared to traditional DNS, and their current usage by DNS clients.</p>
-			</div>
-		</div>
-		<!-- # the DNS Interception Project (USENIX '18)-->
-		<div class="pjbox">
-			<div class="pjimg">
-				<img src="images/dnsintercept.png" width="350" height="250" alt="" />
-			</div>
-			<div class="pjdetails">
-				<h3><a href="sec18-dnsintercept.html">DNS Interception (USENIX Security '18)</a></h3>
-				<br />
-				<p>We report and measure DNSIntercept, where DNS requests to public resolvers are surruptitiously redirected and handled by alternative resolvers. Using two client-side  measurement platforms, we find 259 ASes exhibit this hidden behavior. It also can raise security concerns as some alternative resolvers are weak at security practices.</p>
-			</div>
-		</div>
-		<!-- # the IDN Project (DSN '18)-->
-		<div class="pjbox">
-			<div class="pjimg">
-				<img src="images/idn.jpg" width="350" height="250" alt="" />
-			</div>
-			<div class="pjdetails">
-				<h3><a href="dsn18-idn.html">IDN and its abuse (DSN '18)</a></h3>
-				<br />
-				<p>To build a multilingual Internet, Internationalized Domain Names (IDN) allow Unicode characters in the domain labels. On the other hand, IDNs face the same problem of abuse, like homograph attacks. We perform empirical analysis on the current registration status of IDN, and detect two types of IDN abuse.</p>
-			</div>
+			<br />
+			<br />
+			<hr>
+			<hsectitle>Datasets and Source Code</hsectitle>
+			<p>
+				We make the following datasets and source code publicly available.
+			</p>
+			<bold>A. Open DNS-over-TLS resolvers</bold>
+			<p>
+				We scan the Ipv4 address space for hosts with TCP port 853 open, and then probe them with DoT queries.
+				Also, we verify their SSL certificate paths.
+				The following lists shows our scan results. </br>
+				<a href="dot_resolver_release/resolver_dot_190201.txt">open_dot_resovler_190201</a></br>
+				<a href="dot_resolver_release/resolver_dot_190211.txt">open_dot_resovler_190211</a></br>
+				<a href="dot_resolver_release/resolver_dot_190221.txt">open_dot_resovler_190221</a></br>
+				<a href="dot_resolver_release/resolver_dot_190301.txt">open_dot_resovler_190301</a></br>
+				<a href="dot_resolver_release/resolver_dot_190311.txt">open_dot_resovler_190311</a></br>
+				<a href="dot_resolver_release/resolver_dot_190321.txt">open_dot_resovler_190321</a></br>
+				<a href="dot_resolver_release/resolver_dot_190401.txt">open_dot_resovler_190401</a></br>
+				<a href="dot_resolver_release/resolver_dot_190411.txt">open_dot_resovler_190411</a></br>
+				<a href="dot_resolver_release/resolver_dot_190421.txt">open_dot_resovler_190421</a></br>
+				<a href="dot_resolver_release/resolver_dot_190501.txt">open_dot_resovler_190501</a></br>
+				<a href="dot_resolver_release/resolver_dot_190601.txt">open_dot_resovler_190601</a></br>
+				<a href="dot_resolver_release/resolver_dot_190701.txt">open_dot_resovler_190701</a></br>
+			</p>
+			
+			<bold>B. ProxyRack source code</bold>
+			<p>
+				We use ProxyRack to test the usability of three public DNS-over-Encryption services: Cloudflare, Google and Quad9.
+				Our source code can be found here.
+			</p>
+
+			<bold>C. Passive DNS</bold>
+			<p>
+				We use passive DNS datasets of <a href="https://www.farsightsecurity.com/solutions/dnsdb/">Farsight Security</a> and <a href="https://passivedns.cn/">Qihoo 360</a> to measure DoH usage.
+			</p>
 		</div>
 	</div>
 </div>
