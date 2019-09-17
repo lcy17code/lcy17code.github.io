@@ -1291,7 +1291,7 @@
 193.112.11.131	CN	CN=dns.linloc.com	"ok"
 193.150.15.5	CZ	-	"unable to verify the first certificate"
 193.17.47.1	CZ	CN=odvr.nic.cz	"ok"
-193.170.194.26	AT	CN=*.cleanbrowsing.org	"ok"
+193.170.194.26	AT	CN=apt2.servus.at	"ok"
 193.170.194.35	AT	CN=dyndns.servus.at	"ok"
 193.22.152.139		CN=carrionlee.ga	"ok"
 193.232.134.81	RU	CN=dns.ix.ru	"unable to verify the first certificate"
