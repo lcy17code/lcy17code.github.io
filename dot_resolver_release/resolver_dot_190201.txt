@@ -676,7 +676,7 @@
 193.0.200.97	RU	CN=moscow2.perfect-privacy.com	"ok"
 193.150.15.5	CZ	CN=rdns2	"unable to verify the first certificate"
 193.170.194.22	AT	CN=ns0.servus.at	"certificate has expired"
-193.170.194.26	AT	CN=*.cleanbrowsing.org	"ok"
+193.170.194.26	AT	CN=apt2.servus.at	"ok"
 193.170.194.35	AT	CN=dyndns.servus.at	"ok"
 193.25.100.184	DE	CN=*.datafaber.net	"ok"
 193.30.122.186	DE	CN=dns.hahnjo.de	"ok"
