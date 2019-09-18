@@ -826,7 +826,7 @@
 193.0.200.40	RU	CN=moscow1.perfect-privacy.com	"ok"
 193.0.200.97	RU	CN=moscow2.perfect-privacy.com	"ok"
 193.170.194.22	AT	CN=ns0.servus.at	"ok"
-193.170.194.26	AT	CN=*.cleanbrowsing.org	"ok"
+193.170.194.26	AT	CN=apt2.servus.at	"ok"
 193.232.134.81	RU	CN=dns.ix.ru	"unable to verify the first certificate"
 193.25.100.184	DE	CN=*.datafaber.net	"ok"
 193.25.100.69	DE	CN=*.cleanbrowsing.org	"ok"
